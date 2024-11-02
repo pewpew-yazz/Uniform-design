@@ -1,0 +1,42 @@
+#status-bar{
+    
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: var(--statusBarBG);
+    
+}
+
+#selected-color{
+    position: relative;
+    float: left;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #FFF;
+    margin: 0px 10px 0px 10px;
+}
+
+.status-container {
+
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Opcional: centra los elementos verticalmente */
+}
+
+.status-header{
+    font-size: 8pt;
+    font-weight: bold;
+    margin-right: 5px;
+    color: var(--statusBarHeader);
+}
+
+.status-label{
+    text-align: center;
+    font-size: 8pt;
+    color: var(--statusBarLabel);
+    margin-right: 5px;
+}
